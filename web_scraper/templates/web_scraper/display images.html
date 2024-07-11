@@ -1,0 +1,11 @@
+<!-- web_scraper/templates/web_scraper/display_images.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Images Found</h1>
+    {% for image_url in images %}
+        <img src="{{ image_url }}" alt="Scraped Image">
+    {% empty %}
+        <p>No images found.</p>
+    {% endfor %}
+{% endblock %}

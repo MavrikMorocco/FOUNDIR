@@ -1,0 +1,11 @@
+<!-- face_recognizer/templates/face_recognizer/detect.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Detected Faces</h1>
+    {% for location in face_locations %}
+        <div>Location: {{ location }}</div>
+    {% empty %}
+        <p>No faces detected.</p>
+    {% endfor %}
+{% endblock %}
