@@ -28,7 +28,7 @@ FOUNDIR is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For questions or further information about FOUNDIR, please contact [project@example.com](mailto:project@example.com).
+For questions or further information about FOUNDIR, please contact [MavrikMorocco@gmail.com](mailto:MavrikMorocco@gmail.com).
 
 ---
 
